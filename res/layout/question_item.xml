@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.john.voicedt.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/answer_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. hehe" />
+
+        <RadioButton
+            android:id="@+id/answer_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. haha" />
+
+        <RadioButton
+            android:id="@+id/answer_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. hoho" />
+
+        <RadioButton
+            android:id="@+id/answer_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d. hihi" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff4444"
+        android:visibility="gone" />
+
+</LinearLayout>
